@@ -1,0 +1,51 @@
+.search-form form{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  gap: 0;
+  margin-top: 40px;
+
+}
+.search-form input{
+  flex: 1;
+  border-radius: 10px 0px 0px 10px;
+  height:40px;
+}
+.search-form form button{
+  width: fit-content;
+  background-color: blueviolet;
+  border-radius: 0px 10px 10px 0px;
+  height: 40px;
+}
+.category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.category button{
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.guides-companies{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+button.border{
+  color: white;
+  background-color: #00cd7b;
+}
+button.noborder{
+  color: #00cd7b;
+  
+}

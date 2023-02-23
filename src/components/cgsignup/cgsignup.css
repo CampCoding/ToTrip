@@ -1,0 +1,37 @@
+.guide-sign-up{
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../../assets/images/photo-1503220317375-aaad61436b1b.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+form input{
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+}
+.butn{
+  width: 200px;
+  height: 40px;
+  background-color: #00cd7b;
+  color: white;
+  border: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}

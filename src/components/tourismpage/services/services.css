@@ -1,0 +1,42 @@
+.services{
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #333;
+  gap: 30px;
+  padding:0px 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.services .service{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.service-details{
+  text-align: center;
+}
+.service-details h5{
+  text-align: center;
+}
+.service h5{
+  font-size: 1rem;
+}
+.services .icon{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.services .icon img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:767px) {
+  .services{
+    flex-direction: column;
+    gap: 5px;
+  }
+}

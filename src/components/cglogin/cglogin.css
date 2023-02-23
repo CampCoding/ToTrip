@@ -1,0 +1,39 @@
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+  background-image: url("../../assets/images/photo-1503220317375-aaad61436b1b.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login >p{
+  font-size: 1.3rem;
+}
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  max-width: 100%;
+}
+form input{
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  border: 2px solid blueviolet;
+}
+form button{
+  width: 200px;
+  height: 40px;
+  background-color: #00cd7b;
+  color: white;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 90%;
+  border-radius: 25px;
+  cursor: pointer;
+}

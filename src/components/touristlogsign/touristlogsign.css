@@ -1,0 +1,58 @@
+.alllogsign{
+  background-image: url("../../assets/images/Career-in-Travel-and-Tourism.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tsignup.block,.tlogin.block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+}
+.tsignup.hide{
+  display: none;
+}
+.tlogin.hide{
+  display: none;
+}
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+form input{
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  border: 2px solid blueviolet;
+}
+form button{
+  width: 200px;
+  height: 40px;
+  background-color: #00cd7b;
+  color: white;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 90%;
+  border-radius: 25px;
+}
+.alllogsign a{
+  cursor: pointer;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+@media (max-width:565px) {
+  .alllogsign{
+    background-position-x:-200px ;
+  }
+  .alllogsign a{
+    padding: 0px 20px;
+    text-align: center;
+  }
+}

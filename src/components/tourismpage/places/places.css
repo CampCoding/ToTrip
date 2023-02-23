@@ -1,0 +1,49 @@
+.places{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.places .place{
+  width: 22.5%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: -1px 4px 8px;
+}
+.places .place img{
+  width: 100%;
+}
+.place h3{
+  text-align: center;
+}
+h1{
+  position: relative;
+  padding: 10px 0px;
+}
+h1::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #b91c1c;
+  width: 70px;
+  height: 3px;
+}
+
+@media (max-width:1000px) {
+  .places .place{
+    width: 31.5%;
+  }
+}
+
+@media (max-width:767px) {
+  .places .place{
+    width: 49%;
+  }
+}
+@media (max-width:565px){
+  .places .place{
+    width: 100%;
+  }
+}

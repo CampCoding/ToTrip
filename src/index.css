@@ -1,0 +1,62 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  text-transform: capitalize;
+}
+
+input,textarea{
+  outline: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    padding: 0px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+    padding: 0px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    padding: 0px;
+  }
+}
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid blueviolet;
+  padding-left: 15px;
+  color: var(--blueviolet);
+}
+.form-button {
+  height: 35px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  cursor: pointer;
+}
